@@ -5,6 +5,7 @@
  */
 
 import React, { Component } from 'react';
+import Avatar from './components/Avatar';
 import {
   AppRegistry,
   StyleSheet,
@@ -27,6 +28,8 @@ export default class AwesomeProject extends Component {
           Shake or press menu button for dev menu
         </Text>
         <Text>Esta es una prueba de react native.</Text>
+        <Avatar/>
+        <Text>By @luispeerez</Text>
       </View>
     );
   }
